@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(37, 35, 35);
+}
+
+.head h2{
+    color: white;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+
+.main-container .sec-1{
+    display: flex;
+    margin-left: 200px;
+    padding-top: 50px;
+}
+
+.nav{
+    padding-top: 20px;
+    margin-left: 500px;
+}
+
+.sec-1 .nav ul{
+    display: flex;
+    color: white;
+}
+
+.nav ul li{
+    list-style: none;
+    padding-left: 50px;
+}
+
+.nav h4{
+    padding-left: 50px;
+    margin-bottom: 10px;
+    word-spacing: 5px;
+    color: gray;  
+}
+
+.main-container .para{
+    width: 700px;
+    height: 20px;
+    margin-top: 50px;
+    margin-left: 400px;
+}
+
+.para p{
+    word-spacing: 1px;
+    line-height: 20px;
+    color: white;
+    /* font-weight: bold; */
+}
+
+.btn {
+    margin-top: 100px;
+    margin-left: 600px;
+}
+
+.btn button{
+    padding: 10px;
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(153, 148, 148);
+    font-weight: bold;
+}
+
+.container{
+    margin-top: 20px;
+}
+
+.image,.head{
+    display: flex;
+    justify-content: center;
+}
+
+.image .img{
+    width: 350px;
+    height: 250px;
+    background-color: gray;
+    margin-left: 20px;
+    background: url("../Images/stevejobs.jpg");
+    background-size: cover;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.info .text{
+    width: 350px;
+    height: 250px;
+    /* background-color: gray; */
+    margin-left: 20px;
+    color: black;
+}
+
+.head h4{
+    padding-right: 400px;
+}
+
+.info .text p{
+    padding-top: 20px;
+}
+
+.info .text h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    color: rgb(92, 89, 89);
+}
+
+.footer{
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(37, 35, 35);
+}
+
+.icon{
+    display: flex;
+}
+
+.icon i{
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+.icon h2{
+    padding-left: 10px;
+    padding-top: 50px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+.navi ul{
+    display: flex;
+    margin-left: 700px;
+}
+
+.navi ul li{
+    list-style: none;
+    padding-top: 60px;
+    padding-left: 30px;
+    color: white;
+}
