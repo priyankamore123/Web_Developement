@@ -1,0 +1,1124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;600&family=Libre+Baskerville:wght@700&family=Roboto:wght@400;500&display=swap');
+
+*{
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.mainbackground{
+    width: 100%;
+}
+
+/* header */
+.head{
+    height: 7rem;
+    width: 90%;
+    display: flex;
+    margin: auto;
+    background-color: #fff;
+    border-bottom: 2px solid #CCCCCC;
+}
+
+.nav{
+    display: flex;
+    margin: auto;
+    height: 5rem;
+    width: 80rem;
+    margin-left: 3rem;
+}
+
+.nav h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 3rem;
+    font-weight: 100rem;
+    padding-top: 0.5rem;
+}
+
+.nav ul{
+    display: flex;
+}
+
+.nav a{
+    list-style: none;
+    text-decoration: none;
+    color: #b5b3b3;
+}
+
+.nav li {
+    text-decoration: none;
+    display: flex;
+    padding-top: 2rem;
+    padding-left: 3rem;
+    font-family: Inter;
+}
+
+.icon{
+    display: flex;
+    height: 3rem;
+    width: 3rem;
+    margin-top: 1rem;
+    margin-left: 24rem;
+}
+
+.icon i{
+    margin: auto;
+    font-size: 2rem;
+    color: #9B9CA0;
+}
+
+.circle{
+    border-radius: 100%;
+    background-color: bisque;
+    height: 4rem;
+    width: 4rem;
+    margin: auto;
+}
+
+.circle img{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 100%; 
+}
+
+/* middlecontaint */
+.middlecontaint{
+    display: flex;
+    width: 90%;
+    background-color: #fff;
+    margin: auto;
+}
+
+.left-containt{
+    width: 40%;
+    margin-left: 2rem;
+}
+
+.mainimage{
+    height: 30rem;
+    width: 30rem;
+    border-radius: 2rem;
+    background-color: #9B9CA0;
+    display: flex;
+    margin-top: 6rem;
+    margin-left: 0rem;
+}
+
+.mainimage img{
+    height: 30rem;
+    width: 30rem;
+    border-radius: 2rem;
+}
+
+.bottom{
+    width: 30rem;
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 0rem;
+    justify-content: space-evenly;   
+}
+.smallI{
+    display: flex;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 1rem;
+    background-color: #9B9CA0;
+    border: 1px solid rgb(241, 65, 65);
+}
+
+.smallI img{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 1rem;
+    opacity: 0.3;
+}
+
+.smallI2{
+    display: flex;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 1rem;
+    background-color: #373e57;
+    
+}
+
+.smallI2 img{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 1rem;
+}
+
+.smallI3{
+    display: flex;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 1rem;
+    background-color: #373e57;
+    
+}
+
+.smallI3 img{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 1rem; 
+}
+.smallI4{
+    display: flex;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 1rem;
+    background-color: #373e57;
+}
+
+.smallI4 img{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 1rem;
+}
+
+
+.rightcontaint{
+    width: 40%;
+    margin-left: 1rem;
+}
+
+.h2{
+    display: flex;
+    height: 3rem;
+    width: 23rem;
+    margin-top: 8rem;
+    margin-left: 6rem;
+
+}
+
+.rightcontaint h2{
+    display: flex;
+    font-family: Inter;
+    font-size: 1.2rem;
+    color: #D7A371;
+    font-weight: 1000;
+}
+.h4{
+    display: flex;
+    height: 10rem;
+    width: 40rem;
+    margin-top: -1rem;
+    margin-left: 6rem;
+}
+
+.rightcontaint h4{
+    display: flex;
+    font-family: Inter;
+    font-size: 3rem;
+    color: #000000;
+    font-weight: 1000;
+    font-weight: bolder;
+}
+
+.para{
+    height: 8rem;
+    width: 40rem;
+    margin-top: -1.2rem;
+    margin-left: 6rem;
+} 
+
+.para h5{
+    font-size: 1.4rem;
+    font-family: Inter;
+    color: #979494;
+    font-weight: normal;
+}
+
+.price{
+    display: flex;
+    margin-top: -1.5rem;
+    margin-left: 6rem;
+    height: 5rem;
+}
+.rs{
+    display: flex;
+    width: 3.5rem;
+    margin-top: -2rem;
+    margin-left: 6rem;
+}
+
+.cost{
+    color: #CCCCCC;
+}
+
+.percent{
+    border-radius: 0.5rem;
+    height: 2.5rem;
+    width: 5rem;
+    background-color: #979494;
+    margin-top: -3.5rem;
+    margin-left: 19rem;
+    background-color: #FCE1C4;
+}
+
+.percent h6{
+    font-size: 1.5rem;
+    font-family: Inter;
+    text-align: center;
+    padding-top: 0.3rem;
+    color: #FB7E1F;
+}
+
+.quantity{
+    height: 2.5rem;
+    width: 10rem;
+    background-color: #E8E9EB;
+    margin-top: 4rem;
+    margin-left: 6rem;
+    border-radius: 0.4rem;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+    
+}
+
+.quantity p{
+    color: #FB7E1F;
+    font-size: 1.5rem;
+}
+
+.cart{
+    height: 2.5rem;
+    width: 15rem;
+    background-color: #FF7D1B;
+    margin-top: -3rem;
+    margin-left: 19rem;
+    border-radius: 0.5rem;
+}
+
+.cart i{
+    font-size: 1.2rem;
+    padding-top: 0.6rem;
+    padding-left: 3rem;
+    color: #ffff;
+}
+
+.cart h1{
+    display: flex;
+    font-size: 1rem;
+    padding-left: 5rem;
+    margin-top: -1.1rem;
+    color: #fff;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px){
+    .middlecontaint{
+        flex-direction: column;
+    }
+    /* leftcontaint */
+
+    .left-containt{
+        width: 100%;
+        margin-left: -2rem;
+    }
+    .mainimage{
+        height: 18rem;
+        width: 18rem;
+        border-radius: 2rem;
+        background-color: #9B9CA0;
+        display: flex;
+        margin-top: 6rem;
+        margin-left: 1.5rem;
+    }
+    
+    .mainimage img{
+        height: 18rem;
+        width: 18rem;
+        border-radius: 2rem;
+    }
+    
+    .bottom{
+        width: 20rem;
+        display: flex;
+        margin-top: 4rem;
+        margin-left: 0rem;
+        justify-content: space-evenly; 
+
+    }
+    .smallI{
+        display: flex;
+        height: 4rem;
+        width: 4rem;
+        border-radius: 1rem;
+        background-color: #9B9CA0;
+        border: 1px solid rgb(241, 65, 65);
+    }
+    
+    .smallI img{
+        height: 4rem;
+        width: 4rem;
+        border-radius: 1rem;
+        opacity: 0.3;
+    }
+    
+    .smallI2{
+        display: flex;
+        height: 4rem;
+        width: 4rem;
+        border-radius: 1rem;
+        background-color: #373e57;
+        
+    }
+    
+    .smallI2 img{
+        height: 4rem;
+        width: 4rem;
+        border-radius: 1rem;
+    }
+    
+    .smallI3{
+        display: flex;
+        height: 4rem;
+        width: 4rem;
+        border-radius: 1rem;
+        background-color: #373e57;
+        
+    }
+    
+    .smallI3 img{
+        height: 4rem;
+        width: 4rem;
+        border-radius: 1rem; 
+    }
+    .smallI4{
+        display: flex;
+        height: 4rem;
+        width: 4rem;
+        border-radius: 1rem;
+        background-color: #373e57;
+    }
+    
+    .smallI4 img{
+        height: 4rem;
+        width: 4rem;
+        border-radius: 1rem;
+    }
+
+    /* rightcontaint */
+    
+    .rightcontaint{
+        width: 100%;
+        margin-left: -2rem;
+    }
+    
+    .h2{
+        display: flex;
+        height: 3rem;
+        width: 12rem;
+        margin-top: 6rem;
+        margin-left: 1rem;
+    }
+    
+    .rightcontaint h2{
+        display: flex;
+        font-family: Inter;
+        font-size: 1rem;
+        color: #D7A371;
+        font-weight: 1000;
+    }
+    .h4{
+        display: flex;
+        height: 10rem;
+        width: 20rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+    
+    .rightcontaint h4{
+        display: flex;
+        font-family: Inter;
+        font-size: 2rem;
+        color: #000000;
+        font-weight: 1000;
+        font-weight: bolder;
+    }
+    
+    .para{
+        height: 8rem;
+        width: 20rem;
+        margin-top: -4rem;
+        margin-left: 1rem;
+    } 
+    
+    .para h5{
+        font-size:0.7rem;
+        font-family: Inter;
+        color: #CCCCCC;
+        font-weight: normal;
+    }
+    
+    .price{
+        display: flex;
+        margin-top: -3.5rem;
+        margin-left: 1rem;
+        height: 5rem;
+    }
+    .rs{
+        display: flex;
+        width: 3.5rem;
+        margin-top: -3rem;
+        margin-left: 1rem;
+    }
+    
+    .cost {
+        color: #CCCCCC;
+
+    }
+    
+    .percent{
+        border-radius: 0.5rem;
+        height: 2rem;
+        width: 4rem;
+        background-color: #979494;
+        margin-top: -2.8rem;
+        margin-left: 9.5rem;
+        background-color: #FCE1C4;
+    }
+    
+    .percent h6{
+        font-size: 1rem;
+        font-family: Inter;
+        text-align: center;
+        padding-top: 0.5rem;
+        color: #FB7E1F;
+    }
+    
+    .quantity{
+        height: 2.5rem;
+        width: 10rem;
+        background-color: #E8E9EB;
+        margin-top: 4rem;
+        margin-left: 1rem;
+        border-radius: 0.8rem;
+        display: flex;
+        justify-content: space-around;
+        padding-top: -1rem;
+        
+    }
+    
+    .quantity p{
+        color: #FB7E1F;
+        font-size: 2rem;
+    }
+
+    .quantity h2{
+        color: #000000;
+        margin-top: 0.2rem;
+    }
+    
+    .cart{
+        height: 3rem;
+        width: 15rem;
+        background-color: #FF7D1B;
+        margin-top: 3rem;
+        margin-left: 1rem;
+        border-radius: 0.5rem;
+    }
+    
+    .cart i{
+        font-size: 1rem;
+        padding-top: 1rem;
+        padding-left: 4rem;
+        color: #ffff;
+    }
+    
+    .cart h1{
+        display: flex;
+        font-size: 1rem;
+        padding-left: 6rem;
+        margin-top: -1rem;
+        color: #fff;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) And (max-width: 767px) {
+    .middlecontaint{
+        flex-direction: column;
+    } 
+
+    .left-containt{
+        width: 60%;
+        margin-left: -2rem;
+    }
+
+    .mainimage{
+        height: 20rem;
+        width: 20rem;
+        border-radius: 2rem;
+        background-color: #9B9CA0;
+        display: flex;
+        margin-top: 6rem;
+        margin-left: rem;
+    }
+    
+    .mainimage img{
+        height: 20rem;
+        width: 20rem;
+        border-radius: 2rem;
+    }
+    
+    .bottom{
+        width: 21rem;
+        display: flex;
+        margin-top: 4rem;
+        margin-left: -0.5rem;
+        justify-content: space-evenly; 
+
+    }
+    .smallI{
+        display: flex;
+        height: 4rem;
+        width: 4rem;
+        border-radius: 1rem;
+        background-color: #9B9CA0;
+        border: 1px solid rgb(241, 65, 65);
+    }
+    
+    .smallI img{
+        height: 4rem;
+        width: 4rem;
+        border-radius: 1rem;
+        opacity: 0.3;
+    }
+    
+    .smallI2{
+        display: flex;
+        height: 4rem;
+        width: 4rem;
+        border-radius: 1rem;
+        background-color: #373e57;
+        
+    }
+    
+    .smallI2 img{
+        height: 4rem;
+        width: 4rem;
+        border-radius: 1rem;
+    }
+    
+    .smallI3{
+        display: flex;
+        height: 4rem;
+        width: 4rem;
+        border-radius: 1rem;
+        background-color: #373e57;
+        
+    }
+    
+    .smallI3 img{
+        height: 4rem;
+        width: 4rem;
+        border-radius: 1rem; 
+    }
+    .smallI4{
+        display: flex;
+        height: 4rem;
+        width: 4rem;
+        border-radius: 1rem;
+        background-color: #373e57;
+    }
+    
+    .smallI4 img{
+        height: 4rem;
+        width: 4rem;
+        border-radius: 1rem;
+    }
+
+    /* rightcontaint */
+    
+    .rightcontaint{
+        width: 100%;
+        margin-left: -2rem;
+
+    
+    }
+    
+    .h2{
+        display: flex;
+        height: 3rem;
+        width: 33rem;
+        margin-top: 6rem;
+        margin-left: 1rem;
+    
+    }
+    
+    .rightcontaint h2{
+        display: flex;
+        font-family: Inter;
+        font-size: 1.5rem;
+        color: #D7A371;
+        font-weight: 1000;
+    }
+    .h4{
+        display: flex;
+        height: 10rem;
+        width: 20rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+    
+    .rightcontaint h4{
+        display: flex;
+        font-family: Inter;
+        font-size: 2rem;
+        color: #000000;
+        font-weight: 1000;
+        font-weight: bolder;
+    }
+    
+    .para{
+        height: 8rem;
+        width: 21rem;
+        margin-top: -2rem;
+        margin-left: 1rem;
+    } 
+    
+    .para h5{
+        font-size:0.7rem;
+        font-family: Inter;
+        color: #CCCCCC;
+        font-weight: normal;
+    }
+    
+    .price{
+        display: flex;
+        margin-top: -2.5rem;
+        margin-left: 1rem;
+        height: 5rem;
+    }
+    .rs{
+        display: flex;
+        width: 3.5rem;
+        margin-top: -2.5rem;
+        margin-left: 1rem;
+    }
+    
+    .cost {
+        color: #CCCCCC;
+
+    }
+    
+    .percent{
+        border-radius: 0.5rem;
+        height: 2rem;
+        width: 4rem;
+        margin-top: -3.5rem;
+        margin-left: 15rem;
+        background-color: #FCE1C4;
+    }
+    
+    .percent h6{
+        font-size: 1rem;
+        font-family: Inter;
+        text-align: center;
+        padding-top: 0.5rem;
+        color: #FB7E1F;
+    }
+    
+    .quantity{
+        height: 2.5rem;
+        width: 10rem;
+        background-color: #E8E9EB;
+        margin-top: 4rem;
+        margin-left: 1rem;
+        border-radius: 0.8rem;
+        display: flex;
+        justify-content: space-around;
+        padding-top: -1rem;
+        
+    }
+    
+    .quantity p{
+        color: #FB7E1F;
+        font-size: 2rem;
+        margin-top: -0.4rem;
+    }
+
+    .quantity h2{
+        color: #000000;
+        margin-top: -0.4rem;
+    }
+    
+    .cart{
+        height: 3rem;
+        width: 15rem;
+        background-color: #FF7D1B;
+        margin-top: 3rem;
+        margin-left: 1rem;
+        border-radius: 0.5rem;
+    }
+    
+    .cart i{
+        font-size: 1rem;
+        padding-top: 1rem;
+        padding-left: 4rem;
+        color: #ffff;
+    }
+    
+    .cart h1{
+        display: flex;
+        font-size: 1rem;
+        padding-left: 6rem;
+        margin-top: -1rem;
+        color: #fff;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) And (max-width:991px) {
+    .middlecontaint{
+        flex-direction: column;
+    } 
+
+    .left-containt{
+        width: 60%;
+        margin-left: -3rem;
+    }
+
+    .mainimage{
+        height: 25rem;
+        width: 25rem;
+        border-radius: 2rem;
+        background-color: #9B9CA0;
+        display: flex;
+        margin-top: 6rem;
+        margin-left: 0.7rem;
+    }
+    
+    .mainimage img{
+        height: 25rem;
+        width: 25rem;
+        border-radius: 2rem;
+    }
+    
+    .bottom{
+        width: 26rem;
+        display: flex;
+        margin-top: 4rem;
+        margin-left: 0.2rem;
+        justify-content: space-evenly; 
+
+    }
+    .smallI{
+        display: flex;
+        height: 5rem;
+        width: 5rem;
+        border-radius: 1rem;
+        background-color: #9B9CA0;
+        border: 1px solid rgb(241, 65, 65);
+    }
+    
+    .smallI img{
+        height: 5rem;
+        width: 5rem;
+        border-radius: 1rem;
+        opacity: 0.3;
+    }
+    
+    .smallI2{
+        display: flex;
+        height: 5rem;
+        width: 5rem;
+        border-radius: 1rem;
+        background-color: #373e57;
+        
+    }
+    
+    .smallI2 img{
+        height: 5rem;
+        width: 5rem;
+        border-radius: 1rem;
+    }
+    
+    .smallI3{
+        display: flex;
+        height: 5rem;
+        width: 5rem;
+        border-radius: 1rem;
+        background-color: #373e57;
+        
+    }
+    
+    .smallI3 img{
+        height: 5rem;
+        width: 5rem;
+        border-radius: 1rem; 
+    }
+    .smallI4{
+        display: flex;
+        height: 5rem;
+        width: 5rem;
+        border-radius: 1rem;
+        background-color: #373e57;
+    }
+    
+    .smallI4 img{
+        height: 5rem;
+        width: 5rem;
+        border-radius: 1rem;
+    }
+
+    /* rightcontaint */
+    
+    .rightcontaint{
+        width: 100%;
+        margin-left: -2.5rem;
+
+    
+    }
+    
+    .h2{
+        display: flex;
+        height: 3rem;
+        width: 33rem;
+        margin-top: 6rem;
+        margin-left: 1rem;
+    
+    }
+    
+    .rightcontaint h2{
+        display: flex;
+        font-family: Inter;
+        font-size: 1.8rem;
+        color: #D7A371;
+        font-weight: 1000;
+    }
+    .h4{
+        display: flex;
+        height: 10rem;
+        width: 28rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+    
+    .rightcontaint h4{
+        display: flex;
+        font-family: Inter;
+        font-size: 2.5rem;
+        color: #000000;
+        font-weight: 1000;
+        font-weight: bolder;
+    }
+    
+    .para{
+        height: 8rem;
+        width: 27rem;
+        margin-top: -2rem;
+        margin-left: 1rem;
+    } 
+    
+    .para h5{
+        font-size:1rem;
+        font-family: Inter;
+        color: #CCCCCC;
+        font-weight: normal;
+    }
+    
+    .price{
+        display: flex;
+        margin-top: -2.5rem;
+        margin-left: 1rem;
+        height: 5rem;
+    }
+    .rs{
+        display: flex;
+        width: 3.5rem;
+        margin-top: -1.8rem;
+        margin-left: 1rem;
+    }
+    
+    .cost {
+        color: #CCCCCC;
+
+    }
+    
+    .percent{
+        border-radius: 0.5rem;
+        height: 2rem;
+        width: 4rem;
+        background-color: #979494;
+        margin-top: -3.8rem;
+        margin-left: 15rem;
+        background-color: #FCE1C4;
+    }
+    
+    .percent h6{
+        font-size: 1rem;
+        font-family: Inter;
+        text-align: center;
+        padding-top: 0.5rem;
+        color: #FB7E1F;
+    }
+    
+    .quantity{
+        height: 2.5rem;
+        width: 10rem;
+        background-color: #E8E9EB;
+        margin-top: 4rem;
+        margin-left: 1rem;
+        border-radius: 0.8rem;
+        display: flex;
+        justify-content: space-around;
+        padding-top: -1rem;
+        
+    }
+    
+    .quantity p{
+        color: #FB7E1F;
+        font-size: 2rem;
+        margin-top: -0.4rem;
+    }
+
+    .quantity h2{
+        color: #000000;
+        margin-top: -0.4rem;
+    }
+    
+    .cart{
+        height: 3rem;
+        width: 15rem;
+        background-color: #FF7D1B;
+        margin-top: 3rem;
+        margin-left: 1rem;
+        border-radius: 0.5rem;
+    }
+    
+    .cart i{
+        font-size: 1rem;
+        padding-top: 1rem;
+        padding-left: 4rem;
+        color: #ffff;
+    }
+    
+    .cart h1{
+        display: flex;
+        font-size: 1rem;
+        padding-left: 6rem;
+        margin-top: -1rem;
+        color: #fff;
+    }
+    
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) And (max-width: 1199px) {
+    .middlecontaint{
+        flex-direction: column;
+    } 
+
+    .rightcontaint{
+        width: 100%;
+        margin-left: -8.5rem;
+    }
+
+    .para{
+        height: 8rem;
+        width: 31rem;
+        margin-top: -2rem;
+        margin-left: 6rem;
+    } 
+    
+    .para h5{
+        font-size: 1.2rem;
+        font-family: Inter;
+        color: #CCCCCC;
+        font-weight: normal;
+    }
+
+    .left-containt{
+        width: 60%;
+        margin-left: -3rem;
+    }
+
+    .mainimage{
+        height: 30rem;
+        width: 30rem;
+        border-radius: 2rem;
+        background-color: #9B9CA0;
+        display: flex;
+        margin-top: 6rem;
+        margin-left: 1rem;
+    }
+    
+    .mainimage img{
+        height: 30rem;
+        width: 30rem;
+        border-radius: 2rem;
+    }
+    
+    .bottom{
+        width: 33rem;
+        display: flex;
+        margin-top: 4rem;
+        margin-left: -1rem;
+        justify-content: space-evenly; 
+    }
+
+    .smallI{
+        display: flex;
+        height: 6rem;
+        width: 6rem;
+        border-radius: 1rem;
+        background-color: #9B9CA0;
+        border: 1px solid rgb(241, 65, 65);
+    }
+    
+    .smallI img{
+        height: 6rem;
+        width: 6rem;
+        border-radius: 1rem;
+        opacity: 0.3;
+    }
+    
+    .smallI2{
+        display: flex;
+        height: 6rem;
+        width: 6rem;
+        border-radius: 1rem;
+        background-color: #373e57;
+        
+    }
+    
+    .smallI2 img{
+        height: 6rem;
+        width: 6rem;
+        border-radius: 1rem;
+    }
+    
+    .smallI3{
+        display: flex;
+        height: 6rem;
+        width: 6rem;
+        border-radius: 1rem;
+        background-color: #373e57;
+        
+    }
+    
+    .smallI3 img{
+        height: 6rem;
+        width: 6rem;
+        border-radius: 1rem; 
+    }
+    .smallI4{
+        display: flex;
+        height: 6rem;
+        width: 6rem;
+        border-radius: 1rem;
+        background-color: #373e57;
+    }
+    
+    .smallI4 img{
+        height: 6rem;
+        width: 6rem;
+        border-radius: 1rem;
+    }
+}
